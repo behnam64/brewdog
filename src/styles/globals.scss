@@ -1,0 +1,90 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+@font-face {
+  font-family: 'IRANYekan';
+  src: url('/fonts/IRANYekanExtraBold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'IRANYekan';
+  src: url('/fonts/IRANYekanMedium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'IRANYekan';
+  src: url('/fonts/IRANYekanRegular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'IRANYekan';
+  src: url('/fonts/IRANYekanThin.ttf');
+  font-weight: 100;
+}
+
+html {
+  font-size: 16px !important;
+  @media only screen and (max-width: 700px) {
+    font-size: 15px !important;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 14px !important;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 13px !important;
+  }
+  @media only screen and (max-width: 370px) {
+    font-size: 12px !important;
+  }
+  @media only screen and (max-width: 340px) {
+    font-size: 11px !important;
+  }
+  @media only screen and (max-width: 310px) {
+    font-size: 10px !important;
+  }
+  @media only screen and (max-width: 290px) {
+    font-size: 9px !important;
+  }
+  @media only screen and (max-width: 260px) {
+    font-size: 8px !important;
+  }
+  @media only screen and (max-width: 240px) {
+    font-size: 7px !important;
+  }
+  @media only screen and (max-width: 200px) {
+    font-size: 6px !important;
+  }
+  @media only screen and (max-width: 180px) {
+    font-size: 5px !important;
+  }
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
